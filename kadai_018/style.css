@@ -1,0 +1,85 @@
+#onigiri {
+    width: 800px;
+    background-color: #e597b2;
+    margin: 20px auto;
+    text-align: center;
+    color: lightgray;
+}
+
+.ingredients {
+    display: inline-block;
+    width: 20%;
+}
+
+.contents {
+    background-color: #e9546b;
+}
+
+.base {
+    background-color: #f8fbf8;
+}
+
+.topping {
+    background-color: #333631;
+}
+
+#tuna {
+    width: 800px;
+    height: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #afafb0;
+    position: relative;
+}
+
+#tuna div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+}
+
+#tsunamayo {
+    background-color: #f2c9ac;
+    top: 200px;
+    left: 200px;
+}
+
+#tuna .base {
+    background-color: transparent;
+    border: solid 10px #f8fbf8;
+    top: 290px;
+    left: 290px;
+
+}
+
+#oborokonbu {
+    background-color: #8c8861;
+    top: 400px;
+    left: 400px;
+}
+
+#konbu {
+    width: 800px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: #2f5d50;
+}
+
+#konbu div {
+    width: 400px;
+    height: 100px;
+    position: relative;
+}
+
+#konbunotsukudani {
+    background-color: #6f4b3e;
+}
+
+#konbu .base{
+    left: 200px;
+}
+
+#konbu .topping {
+    left: 400px;
+}
